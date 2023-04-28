@@ -1,0 +1,17 @@
+Commands:
+-ls -a: see all files including hidden items
+
+Variables:
+-Variables are gone after script is done running or when exiting command shell
+
+declare -r rovar="Snohomish" : -r means read only
+declare -i intvar: -i means integer
+unset intvar: destroy/deallocate
+
+echo ${fakevar-"this is alt text"}: This checks to see if the variable fakevar exists and if it does it returns its value. If not then it returns "this is alt text"
+
+echo ${#PATH} returns the number of characters of the variable PATH
+
+echo ${rovar#*i}: deletes all the characters up to and including i in the variable rovar
+
+/mnt/c/Users/SMERZ1/

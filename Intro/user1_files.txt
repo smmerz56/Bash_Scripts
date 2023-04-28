@@ -1,0 +1,11 @@
+/home/smerz1
+/home/smerz1/.bashrc
+/home/smerz1/.bash_logout
+/home/smerz1/.landscape
+/home/smerz1/.landscape/sysinfo.log
+/home/smerz1/.local
+/home/smerz1/.local/share
+/home/smerz1/.local/share/nano
+/home/smerz1/.motd_shown
+/home/smerz1/.profile
+/home/smerz1/.viminfo

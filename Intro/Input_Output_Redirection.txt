@@ -1,0 +1,16 @@
+Pipe "|" takes the result on the left and does something with it over on the right
+
+Output:
+$: cat ./cities.txt > /dev/stdout: greater than redirects the output
+$: find ./scripts/ -size +80c > ./scripts/largefiles.txt: find any files over 80 char and output results to a file called largefiles.txt
+$: find / -user smerz1 2> /dev/null: 2 means error messages, /dev/null is a way to suppress things/get rid of. I could send them to a file here instead
+
+$: find /home -user smerz1 | tee user1_files.txt
+The tee command, used with a pipe, reads standard input, then writes the output of a program to standard output and simultaneously copies it into the specified file or files
+
+Input:
+$: sort < cities.txt: input cities.txt and sort the file. Will not do it permanently to the file
+$: grep -i "t" < cities.txt: -i is case insensitive, feed in cities.txt and look for the letter "t"
+
+Both:
+sort < cities.txt > sorted_cities.txt

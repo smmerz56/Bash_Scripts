@@ -1,0 +1,13 @@
+echo "Sean said \"Hello World\""
+echo "Stock price is \$500"
+$: date +'%Y-%m-%d'
+
+$: datevar=`date +'%Y-%m-%d'`, then echo $datevar. Back ticks execute the command within them.
+
+printf: can do more with printf than echo
+$: printf "%s\n" $costcenter -> %s is string
+printf "%.3s\n" $costcenter -> prints the first 3 numbers
+
+printf "%f\n" $numvar -> %f is a floating point num
+
+%d is an integer

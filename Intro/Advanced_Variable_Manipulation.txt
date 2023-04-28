@@ -1,0 +1,4 @@
+Pass a variable from a parent script to a child script:
+'export' <variable name> from the parent script
+
+$: . ./scope.sh -> dot sourcing anything that declared within is available after the script finshes executing

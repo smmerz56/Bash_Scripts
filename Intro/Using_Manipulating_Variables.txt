@@ -1,0 +1,5 @@
+read -p "Enter city name:" cityname -> -p is prompt and user input is stored in the variable 'cityname'
+
+echo "Computer: " $HOSTNAME >> $HOSTNAME"_stats.txt" -> >> is append, will add new line to the file
+
+echo "Linux kernal info:" `uname -a` >> $HOSTNAME"_stats.txt" -> `uname -a` the backticks execute a command within them

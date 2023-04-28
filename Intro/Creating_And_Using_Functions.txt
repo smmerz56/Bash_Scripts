@@ -1,0 +1,6 @@
+ctrl k: deletes the line
+
+code in the func_lib1.sh file
+
+Dot Sourcing: we want to make sure that variables/functions stick around after the script is finished
+. ./func_lib1.sh

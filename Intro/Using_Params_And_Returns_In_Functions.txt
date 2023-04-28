@@ -1,0 +1,9 @@
+if test <variable> -> test says im testing this variable in the if statement
+
+nontax_amount=`echo "$1/1.15" | bc` -> piping to bc is 'basic calculator'
+
+Steps to execute func_args.sh
+$: . ./func_args.sh
+$: get_saletax 50
+then...
+$: echo $? -> to get the return value of the function

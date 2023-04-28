@@ -1,0 +1,13 @@
+ctrl s: pauses a script
+ctrl q: resumes excecution
+ctrl z: sends to the background as a job (Stops job)
+$: jobs -> will show jobs along with their number
+$: bg <job number> -> resumes the background running job
+
+$: cat /dev/random > /dev/null& -> random is a random number generator, redirects output to dev/null, '&' run/script in the backgroung. It returns job number and process id
+
+2>&1 -> redirects errors (2>) to wherever normal output is going (&1) ex. tar -czf backup.gz /bin -R >/backup/log.txt 2>&1 (log everything to log.txt)
+
+$: kill %<job number/pid> -> terminates job
+
+$: disown -h %<job number> -> even if you exit the shell or logout, you still want that job to keep running. 

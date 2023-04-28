@@ -1,0 +1,3 @@
+Computer:  TM1067359
+Linux kernal info: Linux TM1067359 4.4.0-22000-Microsoft #1281-Microsoft Tue Nov 08 17:05:00 PST 2022 x86_64 x86_64 x86_64 GNU/Linux
+Shell version: 5.0.17(1)-release

@@ -1,0 +1,5 @@
+$: echo $? -> exit status of the last executed command (0 success, non 0 is bad news) 
+
+$HOSTNAME
+$USER
+$0 -> returns name of the script itself. $1 = first param, $2 = 2nd

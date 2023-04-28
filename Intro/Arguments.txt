@@ -1,0 +1,4 @@
+
+"$1", "$2", "$3": 1st, 2nd and 3rd arguments passed in to the command line
+
+$: ./args.sh smerz1 /home
