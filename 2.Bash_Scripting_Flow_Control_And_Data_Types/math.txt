@@ -1,0 +1,4 @@
+$: echo $((579*2))
+
+$: bc #command to go to calculator
+$: echo "579*2.5" | bc #pipe to calc

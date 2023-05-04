@@ -1,0 +1,8 @@
+$: depts=("it" "hr" "sales")
+$: echo ${depts[*]}
+$: depts[3]="exec" #add an element to the array
+$: echo ${#depts[*]} #length of array
+$: echo ${depts[*]:2:1} #skip the first two elements and return the next one
+$: echo ${depts[*]/sales/marketing} #temporarily change a variable in the array
+$: depts2=`echo ${depts[*]/sales/marketing}` #then echo ${depts2[*]} to see the new array
+

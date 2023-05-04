@@ -1,0 +1,3 @@
+$: test $citycode = "hfx" && echo "Hi"
+
+$: if test $citycode = "hfx" || test $projdays -gt 3; then echo "At least one true";fi

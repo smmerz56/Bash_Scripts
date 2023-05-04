@@ -1,0 +1,11 @@
+regex:
+locationcode="hfx123"
+echo ${#locationcode}
+echo `expr "$locationcode" : '\(..\)'` #first two characters in string
+echo `expr "$locationcode" : '\([a-j]\)'` #first character that is between a-j
+echo ${locationcode:0:3} #return 3 characters, beginning with the 0th char
+echo ${locationcode:3:3} #return 3 characters, beginning with the 3rd char
+echo ${locationcode//hfx/yhz} #replace hfx/yhz, not permanant
+
+locationcode=${locationcode//hfx/yhz} #replace hfx/yhz, permanant
+

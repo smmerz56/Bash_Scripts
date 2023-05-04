@@ -1,0 +1,5 @@
+$: cities=("hfx" "tor")
+
+$: for ((i=0; i<${#cities[@]};i++)); do 
+> echo ${cities[$i]} 
+> done
